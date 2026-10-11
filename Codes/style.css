@@ -1,0 +1,149 @@
+:root {
+    --primary-color: #B56576;
+    --secondary-color: #E8C2CA;
+    --accent-color: #F4D1C1;
+    --background-color: #FFFAFA;
+    --text-color: #333333;
+    --footer--color: #AD1457;
+    
+    --main-font: 'Roboto', times new roman, serif;  
+}
+   {
+    box-sizing: border-box;
+   }
+
+   html {
+    scroll-behavior: smooth;
+
+   }
+
+   body {
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+   }
+
+   header {
+      background-color: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 25px;
+
+   }
+     
+   header h1 {
+      margin-bottom: 5px;
+
+   }
+
+   nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+   }
+
+    nav a:hover {
+        color: var(--accent-color);
+    }
+
+    main {
+        width: 90%;
+        max-width: 1000px;
+        margin: 30px auto;
+    }
+
+    section {
+        background-color: var(--secondary-color);
+        margin-bottom: 25px;
+        padding: 25px;
+        border-radius: 12px;
+    } 
+
+    section h2 {
+        color: var(--primary-color);
+
+    }
+
+    section h3 {
+        color: var(--footer-color);
+
+    }
+
+    p {
+        font-size: 16px;
+
+    }
+
+    ul {
+        padding-left: 25px;
+
+    }
+
+    li {
+        margin-bottom: 8px;
+
+    }
+
+    a {
+        color: var(--primary-color);
+
+    }
+
+    .student-id {
+        text-align: center;
+
+    }
+
+    .student-id img {
+        border-radius: 10%;
+        brder: 3px solid var(--primary-color)
+    
+    }
+
+    .back-to-top {
+        border-radius: 10px;
+        brder: 3px solid var(--primary-color);
+
+    }
+
+    footer {
+        background-color: var(--footer-color);
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+
+    }
+
+    @media (max-width: 600px) {
+        header {
+            padding: 18px;
+
+        }
+
+        nav a {
+            display: block;
+            margin: 10px 0;
+
+        }
+
+        main {
+            width: 95%;
+
+        }
+
+        section {
+            padding: 18px;
+
+        }
+
+        p {
+            font-size: 15px;
+
+        }
+    }
+
+    
